@@ -53,7 +53,7 @@ echo "<script type='text/javascript'> document.location = '$currentpage'; </scri
                 </div>
                 <div class="form-group checkbox">
                   <input type="checkbox" id="remember">
-                  <div class="g-recaptcha" data-sitekey="6LfpVpUaAAAAAFBZT9qB6n5JTsNgNiNR7Uzof9Or"></div>
+               
                 </div>
                 <div class="form-group">
                   <input type="submit" name="login" value="Login" class="btn btn-block">
