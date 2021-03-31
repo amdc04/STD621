@@ -105,7 +105,7 @@ $error="Something went wrong. Please try again";
 	<meta name="author" content="">
 	<meta name="theme-color" content="#3e454c">
 	
-	<title>EZRent | Add Vehicle</title>
+	<title>RentNow | Add Vehicle</title>
 
 	<!-- Font awesome -->
 	<link rel="stylesheet" href="admin/css/font-awesome.min.css">

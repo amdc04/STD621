@@ -21,7 +21,7 @@ header('location:index.php');
 	<meta name="author" content="">
 	<meta name="theme-color" content="#3e454c">
 	
-	<title>EZRent | View Locations   </title>
+	<title>RentNow | View Locations   </title>
 
 	<!-- Font awesome -->
 	<link rel="stylesheet" href="admin/css/font-awesome.min.css">

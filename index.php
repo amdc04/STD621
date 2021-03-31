@@ -106,10 +106,10 @@ if(isset($_SESSION['login'])) {
         <div class="col-md-5 col-md-push-7">
           <div class="banner_content">
               <?php if ($mobile) {  echo '<span style="text-align:center !important;">'; } ?>
-                     <?php if ($mobile) {  echo '<h2 style="color:#fff !important; margin-right:10px;">EzRent <span style="background-color:#e00d4c; padding: 4px;">Go!</span></h2><hr style="margin-right:10px;"><br/>'; } ?>
+                     <?php if ($mobile) {  echo '<h2 style="color:#fff !important; margin-right:10px;">RentNow <span style="background-color:#e00d4c; padding: 4px;">Go!</span></h2><hr style="margin-right:10px;"><br/>'; } ?>
             <h1 class="text-shadow" style="color:#fff !important;">Rent a car that is for you.</h1>
             <p class="text-shadow" style="margin-right:10px;"><small>RentNow offers good range of vehicles to choose from.</small></p>
-            <a href="#" class="btn">Read More <span class="angle_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></span></a> </div>
+            /*<a href="#" class="btn">Read More <span class="angle_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></span></a> </div>*/
                    <?php if ($mobile) {  echo '<div class="text-center m-auto" style="background-color:#e00d4c; padding:4px; color:#fff; margin-right:20px;"><small>Scroll down for deals</small></div>'; } ?>
               <?php if ($mobile) {  echo '</span>'; } ?>
         </div>

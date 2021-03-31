@@ -42,7 +42,7 @@ $error="Your current password is wrong";
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="keywords" content="">
 <meta name="description" content="">
-<title>EZRent | Update Password</title>
+<title>RentNow | Update Password</title>
 <!--Bootstrap -->
 <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css">
 <!--Custome Style -->
@@ -128,48 +128,6 @@ return true;
   <div class="dark-overlay"></div>
 </section>
 <!-- /Page Header--> 
-<?php
-// Checks if form has been submitted
-if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    function post_captcha($user_response) {
-        $fields_string = '';
-        $fields = array(
-            'secret' => '_______________PRIVATE_KEY_______________',
-            'response' => $user_response
-        );
-        foreach($fields as $key=>$value)
-        $fields_string .= $key . '=' . $value . '&';
-        $fields_string = rtrim($fields_string, '&');
-
-        $ch = curl_init();
-        curl_setopt($ch, CURLOPT_URL, 'https://www.google.com/recaptcha/api/siteverify');
-        curl_setopt($ch, CURLOPT_POST, count($fields));
-        curl_setopt($ch, CURLOPT_POSTFIELDS, $fields_string);
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, True);
-
-        $result = curl_exec($ch);
-        curl_close($ch);
-
-        return json_decode($result, true);
-    }
-
-    // Call the function post_captcha
-    $res = post_captcha($_POST['g-recaptcha-response']);
-
-    if (!$res['success']) {
-        // What happens when the CAPTCHA wasn't checked
-        echo '<p>Please go back and make sure you check the security CAPTCHA box.</p><br>';
-    } else {
-        // If CAPTCHA is successfully completed...
-
-
-        
-    }
-} else { ?>
-    
-<!-- FORM GOES HERE -->
-<form></form>
-
 
 <?php 
 $useremail=$_SESSION['login'];
@@ -212,7 +170,7 @@ foreach($results as $result)
               <label class="control-label">Confirm Password</label>
               <input class="form-control white_bg" id="confirmpassword" type="password" name="confirmpassword"  required>
             </div>
-            <div class="g-recaptcha" data-sitekey="6LfpVpUaAAAAAFBZT9qB6n5JTsNgNiNR7Uzof9Or"></div>
+          
             <div class="form-group">
                <input type="submit" value="Update" name="update" id="submit" class="btn btn-block">
             </div>

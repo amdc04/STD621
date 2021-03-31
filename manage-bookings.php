@@ -103,7 +103,7 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 	<meta name="theme-color" content="#3e454c">
-	<title>EZRent</title>
+	<title>RentNow</title>
 
 	<!-- Font awesome -->
 	<link rel="stylesheet" href="admin/css/font-awesome.min.css">

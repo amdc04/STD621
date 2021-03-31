@@ -32,7 +32,7 @@ $msg="Vehicle record deleted successfully";
 	<meta name="author" content="">
 	<meta name="theme-color" content="#3e454c">
 	
-	<title>EZRent | Manage Vehicles   </title>
+	<title>RentNow | Manage Vehicles   </title>
 
 	<!-- Font awesome -->
 	<link rel="stylesheet" href="admin/css/font-awesome.min.css">

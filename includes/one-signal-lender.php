@@ -10,7 +10,7 @@
 			'app_id' => "c7203da0-332c-4ab4-bf61-9e3802b93cb8",
 			'filters' => array(array("field" => "tag", "key" => "user_type", "relation" => "=", "value" => "1"),array("operator" => "AND"),array("field" => "tag", "key" => "user_name", "relation" => "=", "value" => $_SESSION['renter_email'])),
 			'data' => array("user_type" => "0"),
-			'url' => 'https://ezrent.online/my-booking.php',
+			'url' => 'https://rentnow.online/my-booking.php',
 			'contents' => $content,
 				
 		);

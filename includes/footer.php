@@ -60,7 +60,7 @@ if( !$detect->isMobile() && !$detect->isTablet() ){
     <div class="container">
       <div class="row">
         <div class="col-md-6 col-md-push-6 text-right">
-          <p class="copy-right">Copyright &copy; 2019 EZRent</a></p>
+          <p class="copy-right">Copyright &copy; 2021 RentNow</a></p>
         </div>
         <div class="col-md-6 col-md-pull-6 ">
           <div class="footer_widget">

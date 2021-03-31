@@ -35,7 +35,7 @@ $msg="Brand updted successfully";
 	<meta name="author" content="">
 	<meta name="theme-color" content="#3e454c">
 	
-	<title>EZRent | Admin Create Brand</title>
+	<title>RentNow | Admin Create Brand</title>
 
 	<!-- Font awesome -->
 	<link rel="stylesheet" href="css/font-awesome.min.css">

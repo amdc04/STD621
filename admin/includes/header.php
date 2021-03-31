@@ -3,7 +3,7 @@
 
 
 <div class="brand clearfix">
-	<a href="dashboard.php" style="font-size: 50px;">EZRent Admin Panel</a>  
+	<a href="dashboard.php" style="font-size: 50px;">RentNow Admin Panel</a>  
 		<span class="menu-btn"><i class="fa fa-bars"></i></span>
 		<ul class="ts-profile-nav">
 			
